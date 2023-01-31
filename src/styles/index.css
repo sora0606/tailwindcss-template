@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    @apply w-[220px] h-[50px] mt-10 mx-auto rounded-full  _shadow-input bg-main-light text-white font-medium text-lg cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110
+}
+
+._shadow-container{
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.35),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+._shadow-input{
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.35);
+}
